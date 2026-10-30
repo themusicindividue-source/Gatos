@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cat.org</title>
+</head>
+<body>
+<h1>Sobre gatoooos</h1>
+<p>Los gatos son mamiferos los cuales tienen cuatro patas, una cola,dos orejas y lo demas que tienenlos mamiferos como nariz, ojos, boca,etc.</p>
+<img src="imagenes/download.jpg" alt="images">
+<p>Los gatos son carnivoros los cuales comen carne y en la escala alimentica son carnivoros de la primera clase comiendo insectos u otros animales puequeños</p>
+
+
+<img src="imagenes/gatoy.jpg">
+
+<h1>Las razas de gatooos</h1>
+
+
+<h2>1.-Siames</h2>
+
+<p>Es un gato que en las partes que tengan mas calor sean blancas y en las mas frias sean negras.
+    Cuando nacen suelen ser totalmente blancos por estar en un lugar calido y con el tiempo se crea su color negro
+    El maullido de estos gatos suele ser ronco y disonante lo cual la mayoria de sus dueños lo perciben tierno. 
+</p>
+ <img src="imagenes/WhatsApp Image 2026-10-24 at 10.54.50 AM (1).jpeg">
+
+
+ <h2>2.-Persa</h2>
+ <p>
+Es de los gatos mas populares por su cara aplastada que los hace ver interesantes y por su pelo largo.
+Algunos dueños los describen su pelaje como nube por lo largo y esponjoso que es.
+Es la raza mas popular mundialmente tanto por su apariencia y sus origenes que son aproximadamente de 300 años.
+ </p>
+ <img src="imagenes/676d2c6af3b24328468420.avif">
+
+
+ <h2>3.-Ragdoll</h2>
+ <p>Es de las razas mas bonitas y tiernas que existen las favoritas de la abuela.
+   Al cargarlos en tus brazos ellos se desparraman y se hacen blanditos de hay viene el nombre ragdoll que es muñeco de trapo.
+   El color de sus ojos suelen ser de color azul por la melanina que ellos prodeucen cuando estan creciendo
+ </p>
+ <img src="imagenes/istockphoto-1125395068-612x612.jpg">
+
+
+<h2>4.-Munchkin</h2> 
+<p>
+Para aquel que no conose esta raza es de las mas pequeñas llegando a medir 21 centimetros y pesar 2 kilogramos.
+La razon de que esta raza sea de las mas bonitas es por sus patas cortas que los hace ver en la clasica posicion de pan que tienen los gatos.
+</p>
+<img src="imagenes/OIP.jpg">
+
+
+<h2>5.-Azul Ruso</h2>
+<p>
+    Es un gato particular por su pelaje elegante de colores oscuros azulados y sus ojos verdes que genera una mirada penetrante.
+    Es un gato muy reservado y tranquilo por lo que es el favorito para las personas tranquilas 
+</p>
+<img src="imagenes/676d3cd68d35f029578731.avif">
+
+
+<h2>6.-Siberiano</h2>
+<p>
+  Estos gatos se caracterizan por su cuerpo grande y su pelaje de colores crema adaptados a las condiciones climaticas del sur de siberia la region que les da su nombre a estos gatos.
+  En invierno poseen un pelaje mas denso a diferencia del verano que es mas ligero.    
+</p>
+<img src="imagenes/istockphoto-2262524814-612x612.jpg">
+
+
+<h2>7.-Bengala</h2>
+<p>
+    Los bengala son de los gatos con mas energia del mundo lo cual los hace muy hiperactivos.
+    Su pelaje suele asimilarse a un tigre con las lineas negras y el pelaje naranja , sus ojos son muy verdes debido a la melanina que producen al crecer
+</p>
+<img src="imagenes/6672a4ff72525946286506.avif">
+
+
+<h2>8.-Exotico</h2>
+<p>
+   El gato exotico es un gato popular por sus rasgos faciales que muestran un sentido infantil, es de los gatos mas  adaptables del mundo lo cual hace que mudarse sea facil.
+   Es de los gatos mas faciles de peinar y cepillar por la suavidad de su pelaje.
+</p>
+<img src="imagenes/istockphoto-1298991446-612x612.jpg">
+
+<h2>9.-Scottish Fold</h2>
+<p>
+    Es un gato nacido en escocia.
+    Tiene una forma particular por las orejas que las tienen plegadas hacia adelante que son una mutacion genetica que ellos tienen en su epecie.
+</p>
+
+<img src="imagenes/613f5a3840f33553110209.avif">
+
+
+<h2>10.-Tilcayo</h2>
+<p>
+    Este gato es una nueva especie que los cientificos descubrieron en el 2026.
+    Este es un gato que se encontro en boliva, sus color es anaranjado con manchas negras y se suele semejar a una combinacion entre un gato y un tigre.
+    Fue encontrado en los bosques nublados de los yungas en la paz y esta amenazado por la deforestacion y la perdida de habitad en las zonas que las empresas utilizan en boliva
+</p>
+<img src="imagenes/images (10).jpg">
+
+
+
+
+<h1> Curiosidades de los gatos</h1>
+<p>¡Pulsa un botón para descubrir algo nuevo!</p>
+
+
+
+<div class="botones">
+    <button onclick="mostrar(1)"> Curiosidad 1</button>
+    <button onclick="mostrar(2)"> Curiosidad 2</button>
+    <button onclick="mostrar(3)"> Curiosidad 3</button>
+    <button onclick="mostrar(4)"> Curiosidad 4</button>
+    <button onclick="mostrar(5)"> Curiosidad 5</button>
+    <button onclick="mostrar(6)"> Curiosidad 6</button>
+    <button onclick="mostrar(7)"> Curiosidad 7</button>
+    <button onclick="mostrar(8)"> Curiosidad 8</button>
+    <button onclick="mostrar(9)"> Curiosidad 9</button>
+    <button onclick="mostrar(10)"> Curiosidad 10</button>
+</div>
+
+<div id="resultado">
+    Aquí aparecerá la curiosidad.
+</div>
+
+<script>
+    function mostrar(numero) {
+        const curiosidades = {
+            1: " Los bigotes ayudan a los gatos a percibir su entorno.",
+            2: " Los gatos ronronean cuando están tranquilos y también en otras situaciones.",
+            3: " Los gatos adultos suelen dormir entre 12 y 16 horas al día.",
+            4: " Los gatos tienen un oído muy sensible.",
+            5: " Los gatos pueden frotar su cabeza contra ti para dejar su olor.",
+            6: " El olfato es muy importante para los gatos.",
+            7: "Cada gato puede tener una personalidad diferente.",
+            8: " Los gatos utilizan su cola para ayudar a comunicar cómo se sienten.",
+            9: " Los gatos tienen garras retráctiles en la mayoría de sus dedos.",
+            10: " Los gatos pueden reconocer sonidos familiares, incluida la voz de su cuidador."
+        };
+
+        document.getElementById("resultado").textContent =
+            curiosidades[numero];
+    }
+</script>
+<img src="imagenes/images.jpg" alt="Gato" width="300">
+
+</body>
+</html>
